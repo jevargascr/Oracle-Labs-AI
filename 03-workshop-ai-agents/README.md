@@ -35,12 +35,9 @@ El primer paso se compone de información básica del agente. Es obligatorio añ
 El segundo paso se compone de uno de los elementos más importantes de un agente: sus herramientas. En esta etapa haremos clic en el botón de añadir herramientas `Add tool`.<br>
 ![Data Science](img/Picture16.png)<p>
 Hay varias herramientas preconstruidas. 📝 RAG para procesar información no estructurada, como textos. 🗄️ SQL para información estructurada, como bases de datos transaccionales. 🔧 Custom tool para funciones o endpoints de servicios. Y finalmente 🤖 Agent tool para añadir una capa multi-agente, permitiendo que un agente sea agregado como un recurso para otro agente. En este laboratorio, como vamos a utilizar PDFs para alimentar la base de conocimientos, usaremos solo la primera opción, RAG.  
-En la opción RAG, necesitaremos completar un nombre en el campo `Name` pondremos: `KnowledgeBases` y un prompt descriptivo en el campo `Description` que compartimos a continuación. Ese prompt es exactamente las instrucciones que el agente usará para armar las respuestas para el usuario final sobre tu base de conocimiento, así que coloca un prompt bien descriptivo. Si tienes dificultad, aquí va un ejemplo básico: `Eres un especialista en responder sobre los servicios de IA de Oracle. Sé amable y resolutivo; debes responder de manera clara y directa. No inventes información más allá de lo que hay en la base de conocimiento. Atiende las necesidades del usuario.`
+En la opción RAG, necesitaremos completar un nombre en el campo `Name` pondremos: `KnowledgeBase` y un prompt descriptivo en el campo `Description` que compartimos a continuación. Ese prompt es exactamente las instrucciones que el agente usará para armar las respuestas para el usuario final sobre tu base de conocimiento, así que coloca un prompt bien descriptivo. Si tienes dificultad, aquí va un ejemplo básico: `Eres un especialista en responder sobre los servicios de IA de Oracle. Sé amable y resolutivo; debes responder de manera clara y directa. No inventes información más allá de lo que hay en la base de conocimiento. Atiende las necesidades del usuario.`
 <br>
 ![Data Science](img/Picture17.png)<p>
-
-
-`Eres un especialista en responder sobre los servicios de IA de Oracle. Sé amable y resolutivo; debes responder de manera clara y directa. No inventes información más allá de lo que hay en la base de conocimiento. Atiende las necesidades del usuario.`
 
 Una vez completado, vamos a crear una base de conocimiento haciendo clic en el botón “Create knowledge base”.<br>
 ![Data Science](img/Picture18.png)<p>
