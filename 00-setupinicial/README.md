@@ -254,6 +254,7 @@ Una vez creada la red y la base de datos, el siguiente paso es desplegar una **i
    ![Figura 12](img/Picture12.png)
 
 5. En **Shape**, asigne los recursos:
+   - AMD
    - 4 OCPUs  
    - 48 GB de RAM  
   
