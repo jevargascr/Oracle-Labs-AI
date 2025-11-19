@@ -34,7 +34,7 @@ El primer paso se compone de información básica del agente. Es obligatorio añ
 ![Data Science](img/Picture15.png)<p>
 El segundo paso se compone de uno de los elementos más importantes de un agente: sus herramientas. En esta etapa haremos clic en el botón de añadir herramientas `Add tool`.<br>
 ![Data Science](img/Picture16.png)<p>
-Hay varias herramientas preconstruidas. 
+Hay varias herramientas preconstruidas.  
 📝 RAG para procesar información no estructurada, como textos.  
 🗄️ SQL para información estructurada, como bases de datos transaccionales.  
 🔧 Custom tool para funciones o endpoints de servicios. Y finalmente.   
