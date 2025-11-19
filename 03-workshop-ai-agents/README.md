@@ -9,7 +9,7 @@ La pantalla principal del servicio debe mostrar todos los buckets que tienes cre
 ![Data Science](img/Picture3.png)<p>
 Haz clic en `Create bucket`.<br>
 ![Data Science](img/Picture4.png)<p>
-Dejaremos todas las configuraciones por `defecto`. La única modificación recomendada es ingresar un nombre `Bucket_Test` 🏷️ que sea fácil de encontrar; más adelante tendremos que seleccionar este bucket creado. Después de cambiar el nombre, haz clic en `Create bucket`.<br>
+Dejaremos todas las configuraciones por `defecto`. La única modificación recomendada es ingresar el siguiente nombre: `Bucket_Test` 🏷️ que sea fácil de encontrar; más adelante tendremos que seleccionar este bucket creado. Después de cambiar el nombre, haz clic en `Create bucket`.<br>
 ![Data Science](img/Picture5.png)<p>
 Enseguida, tu bucket ya debería figurar como disponible. Accédelo haciendo clic en su nombre.<br>
 ![Data Science](img/Picture6.png)<p>
@@ -30,14 +30,15 @@ La pantalla que aparece es la interfaz del servicio de agentes. En la página de
 ![Data Science](img/Picture13.png)<p>
 Haz clic en `Create agent` en el centro de la pantalla para comenzar la creación de nuestro agente.<br>
 ![Data Science](img/Picture14.png)<p>
-El primer paso se compone de información básica del agente. Es obligatorio añadir un nombre para tu agente `AgentRag`. También puedes agregar un mensaje inicial en `Welcome message`, un saludo para tu usuario. Una descripción interna para identificar de qué se trata este agente y rutas de instrucción para añadir reglas sobre cómo debe actuar en cada nueva ejecución. En este momento, solo añadiremos el nombre y el mensaje de bienvenida; puedes dejar los demás campos vacíos. Cuando finalices, haz clic en el botón inferior izquierdo `Next`.<br>
+El primer paso se compone de información básica del agente. Es obligatorio añadir un nombre para tu agente, utiliza el siguien nombre: `AgentRag`. También puedes agregar un mensaje inicial en `Welcome message`, podemos poner: `¿Como puedo apoyarte el día de hoy?`. Una descripción interna para identificar de qué se trata este agente y rutas de instrucción para añadir reglas sobre cómo debe actuar en cada nueva ejecución. En este momento, solo añadiremos el nombre y el mensaje de bienvenida; puedes dejar los demás campos vacíos. Cuando finalices, haz clic en el botón inferior izquierdo `Next`.<br>
 ![Data Science](img/Picture15.png)<p>
 El segundo paso se compone de uno de los elementos más importantes de un agente: sus herramientas. En esta etapa haremos clic en el botón de añadir herramientas `Add tool`.<br>
 ![Data Science](img/Picture16.png)<p>
-Hay varias herramientas preconstruidas. 📝 RAG para procesar información no estructurada, como textos. 🗄️ SQL para información estructurada, como bases de datos transaccionales. 🔧 Custom tool para funciones o endpoints de servicios. Y finalmente 🤖 Agent tool para añadir una capa multi-agente, permitiendo que un agente sea agregado como un recurso para otro agente. En este laboratorio, como vamos a utilizar PDFs para alimentar la base de conocimientos, usaremos solo la primera opción, RAG.<br>
+Hay varias herramientas preconstruidas. 📝 RAG para procesar información no estructurada, como textos. 🗄️ SQL para información estructurada, como bases de datos transaccionales. 🔧 Custom tool para funciones o endpoints de servicios. Y finalmente 🤖 Agent tool para añadir una capa multi-agente, permitiendo que un agente sea agregado como un recurso para otro agente. En este laboratorio, como vamos a utilizar PDFs para alimentar la base de conocimientos, usaremos solo la primera opción, RAG.  
+En la opción RAG, necesitaremos completar un nombre en el campo `Name` pondremos: `KnowledgeBases` y un prompt descriptivo en el campo `Description` que compartimos a continuación. Ese prompt es exactamente las instrucciones que el agente usará para armar las respuestas para el usuario final sobre tu base de conocimiento, así que coloca un prompt bien descriptivo. Si tienes dificultad, aquí va un ejemplo básico: `Eres un especialista en responder sobre los servicios de IA de Oracle. Sé amable y resolutivo; debes responder de manera clara y directa. No inventes información más allá de lo que hay en la base de conocimiento. Atiende las necesidades del usuario.`
+<br>
 ![Data Science](img/Picture17.png)<p>
 
-Más abajo, en la opción RAG, necesitaremos completar un nombre en el campo `Name` y un prompt descriptivo en el campo `Description` que compartimos a continuación. Ese prompt es exactamente las instrucciones que el agente usará para armar las respuestas para el usuario final sobre tu base de conocimiento, así que coloca un prompt bien descriptivo. Si tienes dificultad, aquí va un ejemplo básico:
 
 `Eres un especialista en responder sobre los servicios de IA de Oracle. Sé amable y resolutivo; debes responder de manera clara y directa. No inventes información más allá de lo que hay en la base de conocimiento. Atiende las necesidades del usuario.`
 
