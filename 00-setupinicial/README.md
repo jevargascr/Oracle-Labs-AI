@@ -205,7 +205,7 @@ La **Autonomous Database (ADB)** permite crear un entorno de base de datos total
    | Recuento de ECPU | 2 |
    | Almacenamiento (TB) | 1 |
    | Autoescalado de cálculo | Activado |
-   | Autoescalado de almacenamiento | Activado |
+   | Autoescalado de almacenamiento | Desactivado |
 
    ![Figura 21](img/Picture21.png)
 
