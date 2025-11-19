@@ -84,7 +84,7 @@ Antes de iniciar sesiones en los notebooks de *Data Science*, es necesario defin
    ![Crear Política](images/2crearpolicies.png)
 
 3. Complete los siguientes campos:
-   - **Nombre:** `policy`
+   - **Nombre:** `IA-Policy`
    - **Descripción:** Política para los usuarios y el servicio de ciencia.
    - **Compartimento:** `root`
 
