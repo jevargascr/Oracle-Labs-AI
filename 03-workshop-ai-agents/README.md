@@ -75,7 +75,8 @@ Una vez que el agente está activo y tiene un endpoint activo, ya puedes comunic
 ![Data Science](img/Picture29.png)<p>
 En la página de chat, tienes la opción de elegir alguno de los agentes activos en el menú flotante “Agent” y un endpoint en el menú `Agent endpoint`. En caso de que hayas accedido vía `Launch chat`, esa información ya estará completada. En esta pantalla también es posible notar que el mensaje de bienvenida del agente aparece de inmediato.<br>
 ![Data Science](img/Picture30.png)<p>
-Cuando envíes una pregunta al agente, este la procesará y responderá directamente en la pantalla. Además de responder a tu pregunta, tu agente informará la cita de dónde provino la información, justo debajo de la respuesta.<br>
+Cuando envíes una pregunta al agente, este la procesará y responderá directamente en la pantalla. Además de responder a tu pregunta, tu agente informará la cita de dónde provino la información, justo debajo de la respuesta.
+Pregunta de ejemplo: `¿Me puedes resumir en 5 bullets lo principal del documento?` <br>
 ![Data Science](img/Picture31.png)<p>
 Otra capacidad interesante de esta pantalla es `Traces` 🔍; haciendo clic en `View` es posible ver la línea de pensamiento, paso a paso, que el agente siguió para construir su respuesta. Todos los documentos, las páginas y demás herramientas que utilizó para componer la respuesta final y su razonamiento para atender la solicitud.<br>
 ![Data Science](img/Picture32.png)<p>
